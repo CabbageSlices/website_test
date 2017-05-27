@@ -29,9 +29,9 @@ function preload() {
 function create() {
 	game.add.sprite(0, 0, 'star');
 	game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-game.scale.pageAlignHorizontally = true;
-game.scale.pageAlignVertically = true;
-game.scale.setScreenSize(true);
+	game.scale.pageAlignHorizontally = true;
+	game.scale.pageAlignVertically = true;
+	game.scale.refresh();
 }
 
 function update() {
